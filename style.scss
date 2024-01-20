@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(AI\ POWERED.avif);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+
+    h1 {
+        margin: 0;
+    }
+
+    nav {
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                margin-right: 20px;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 2rem;
+
+    h2 {
+        color: #333;
+    }
+
+    p {
+        color: white
+        ;
+    }
+
+    .cta-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #040f04;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+}
+
+/* Other Sections Styles */
+.about-container,
+.services-container,
+.contact-container {
+    text-align: center;
+    padding: 2rem;
+
+    h2 {
+        color: #333;
+    }
+
+    p {
+        color: #555;
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+  
